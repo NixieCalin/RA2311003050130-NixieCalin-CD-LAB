@@ -60,12 +60,12 @@ int main() {
         while (reduce());
 
         if (stack[0] == 'E' && top == 0 && input[ip] == '$') {
-            printf("\nString Accepted ✅\n");
+            printf("\nString Accepted \n");
             break;
         }
 
         if (ip >= strlen(input)) {
-            printf("\nString Rejected ❌\n");
+            printf("\nString Rejected \n");
             break;
         }
     }
